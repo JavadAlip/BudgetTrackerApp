@@ -9,8 +9,7 @@ const {
   verifyForgotOtp,
   resetPassword,
 } = require('../controllers/authController');
-
-// auth
+// test
 router.post('/register', registerUser);
 router.post('/verify-otp', verifyOtp);
 router.post('/set-password', setPassword);
