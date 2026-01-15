@@ -10,6 +10,7 @@ const {
   resetPassword,
 } = require('../controllers/authController');
 
+// auth
 router.post('/register', registerUser);
 router.post('/verify-otp', verifyOtp);
 router.post('/set-password', setPassword);

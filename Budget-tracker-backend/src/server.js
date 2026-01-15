@@ -10,6 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+//auth
 app.use('/auth', require('./routes/authRoutes'));
 
 const PORT = 5000;
